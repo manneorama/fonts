@@ -11,7 +11,7 @@ if test "$(uname)" = "Darwin" ; then
   font_dir="$HOME/Library/Fonts"
 else
   # Linux
-  font_dir="$HOME/.local/share/fonts"
+  font_dir="$HOME/.fonts"
   mkdir -p $font_dir
 fi
 
